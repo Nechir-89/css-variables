@@ -1,0 +1,46 @@
+h1{
+  color: orange;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 3rem;
+}
+
+
+.container{
+  display: flex;
+
+  /* flex-direction has 4 values */
+  /* row is the default value for
+  flex-direction property */
+  /* flex-direction: row;  */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  flex-direction: row;
+  justify-content: center;
+  /* so we hav four values
+  for flex-direction property
+  flex-direction: row|column|row-reverse|column-reverse */
+}
+
+.item:last-of-type{
+  /* margin-left: auto; */
+}
+
+
+
+:root{
+  --dark: #1e1e1e;
+  /* --var-name: value; */
+}
+
+body{
+  background-color: var(--dark);
+  
+}
+
+
+
+
+
+
+
